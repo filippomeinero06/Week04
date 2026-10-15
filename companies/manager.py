@@ -1,4 +1,4 @@
-from employee import Employee
+from companies.employee import Employee
 
 class Manager(Employee):
 

@@ -4,3 +4,6 @@ from docente import Docente
 p1 = Persona("Michela", "Blu")
 
 d1 = Docente("Alberto", "Azzurri", "DAUIN")
+
+print(d1)
+print(p1)

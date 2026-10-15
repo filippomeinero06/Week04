@@ -9,3 +9,6 @@ class Docente(Persona):
 
         super().__init__(nome, cognome) # Costruisce "la parte" Persona del Docente (prima costruisco la parte Persona e poi aggiungo gli attributi specifici per Docente)
         self.dipartimento = dipartimento
+
+    def __str__(self):
+        return f"{super().__str__()} {self.dipartimento}"

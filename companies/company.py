@@ -31,4 +31,11 @@ c1 = Car("AB123CD", "Red", "False")
 users.append(c1) # se si stampa printa l'indirizzo di memoria perché nella classe Car non abbiamo definito __str()__, ora lo facciamo
 
 for user in users:
-    print(user)
+    print(f"{user} | {type(user)}")
+
+# Esempio, se in Car il metodo __str__() non è definito, quando stampato verrà mostrato nella console di riferimento
+
+if isinstance(e1, Employee):
+    print("e1 è un Employee")
+else:
+    print("e1 non è un employee")
